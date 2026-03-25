@@ -7,6 +7,7 @@ const useMacbookStore = create((set) => ({
     scale: 0.08,
     setScale: (scale) => set({ scale }),
 
+    //modifying the texture as we scroll 
     texture: '/videos/feature-1.mp4',
     setTexture: (texture) => set({ texture }),
 
